@@ -84,9 +84,7 @@ const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
 // 配置 marked
 marked.setOptions({
   breaks: true,
-  gfm: true,
-  headerIds: true,
-  mangle: false
+  gfm: true
 })
 
 const isEdit = computed(() => !!route.params.id)

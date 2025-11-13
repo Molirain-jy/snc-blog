@@ -1,10 +1,7 @@
 <script setup lang="ts">
-import { shallowRef } from 'vue'
 import { RouterView } from 'vue-router'
 import Navigation from './components/Navigation.vue'
 import Footer from './components/Footer.vue'
-
-const Component = shallowRef()
 </script>
 
 <template>

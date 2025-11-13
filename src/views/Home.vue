@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
 // Hero数据
 const heroTitle = '学生网络中心'
 const heroSubtitle = '为校园提供优质网络服务 · 推动技术创新与开源文化'

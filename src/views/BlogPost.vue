@@ -9,9 +9,7 @@ const router = useRouter()
 // 配置 marked 选项
 marked.setOptions({
   breaks: true,
-  gfm: true,
-  headerIds: true,
-  mangle: false
+  gfm: true
 })
 
 interface Post {

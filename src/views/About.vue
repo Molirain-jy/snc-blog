@@ -176,7 +176,7 @@ const stats = [
       <div class="container">
         <h2 class="section-title">发展历程</h2>
         <div class="timeline">
-          <div v-for="(item, index) in timeline" :key="item.year" class="timeline-item">
+          <div v-for="(item, _index) in timeline" :key="item.year" class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-year">{{ item.year }}</div>
