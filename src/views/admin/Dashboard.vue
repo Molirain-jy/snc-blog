@@ -134,7 +134,7 @@ h1 {
 
 .stat-content h3 {
   font-size: 2rem;
-  color: #667eea;
+  color: #56CCF2;
   margin-bottom: 0.25rem;
 }
 

@@ -198,7 +198,7 @@ const saveBlog = async () => {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
   color: white;
 }
 
@@ -258,7 +258,7 @@ const saveBlog = async () => {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #56CCF2;
 }
 
 .label-with-toggle {
@@ -270,7 +270,7 @@ const saveBlog = async () => {
 
 .btn-preview {
   padding: 0.5rem 1rem;
-  background: #667eea;
+  background: #56CCF2;
   color: white;
   border: none;
   border-radius: 6px;
@@ -280,7 +280,7 @@ const saveBlog = async () => {
 }
 
 .btn-preview:hover {
-  background: #764ba2;
+  background: #2F80ED;
   transform: translateY(-2px);
 }
 </style>

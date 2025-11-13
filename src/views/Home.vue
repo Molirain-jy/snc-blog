@@ -197,7 +197,7 @@ const scrollToContent = () => {
   background-position: center;
   background-repeat: no-repeat;
   /* 如果图片未加载，显示渐变色背景 */
-  background-color: #667eea;
+  background-color: #56CCF2;
 }
 
 .hero-background {
@@ -330,7 +330,7 @@ const scrollToContent = () => {
 /* Stats Section */
 .stats-section {
   padding: 60px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
   color: white;
 }
 

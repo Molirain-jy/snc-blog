@@ -250,7 +250,7 @@ const groupedServices = computed(() => {
 .page-header {
   padding: 80px 0 60px;
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
   color: white;
 }
 

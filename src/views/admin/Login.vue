@@ -132,7 +132,7 @@ const handleSubmit = async () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
   padding: 2rem;
 }
 
@@ -178,7 +178,7 @@ const handleSubmit = async () => {
 
 .form-group input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #56CCF2;
 }
 
 .error-message {
@@ -192,7 +192,7 @@ const handleSubmit = async () => {
 .btn-primary {
   width: 100%;
   padding: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
   color: white;
   border: none;
   border-radius: 8px;

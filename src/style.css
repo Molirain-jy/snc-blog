@@ -1,8 +1,8 @@
 :root {
-  /* 主题色 - 参考TUNA的配色 */
-  --primary-color: #2196f3;
-  --primary-dark: #1976d2;
-  --primary-light: #64b5f6;
+  /* 主题色 - 天蓝色主题 */
+  --primary-color: #56CCF2;
+  --primary-dark: #2F80ED;
+  --primary-light: #87CEEB;
   --secondary-color: #ff6b6b;
   --accent-color: #4caf50;
   
