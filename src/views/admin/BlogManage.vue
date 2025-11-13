@@ -142,7 +142,7 @@ const formatDate = (date: string) => {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
@@ -208,7 +208,7 @@ const formatDate = (date: string) => {
 }
 
 .blog-item:hover {
-  border-color: #56CCF2;
+  border-color: #06b6d4;
 }
 
 .blog-info {
@@ -234,7 +234,7 @@ const formatDate = (date: string) => {
 }
 
 .category {
-  background: #56CCF2;
+  background: #06b6d4;
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
@@ -275,7 +275,7 @@ const formatDate = (date: string) => {
 }
 
 .btn-edit {
-  background: #56CCF2;
+  background: #06b6d4;
   color: white;
   text-decoration: none;
   border: none;

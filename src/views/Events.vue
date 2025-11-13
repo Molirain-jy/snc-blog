@@ -189,8 +189,8 @@ const finishedCount = computed(() =>
 .page-header {
   padding: 80px 0 60px;
   text-align: center;
-  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
-  color: white;
+  background: linear-gradient(135deg, #99FFFF 0%, #66CCCC 100%);
+  color: #004d4d;
 }
 
 .page-title {

@@ -1,8 +1,8 @@
 :root {
-  /* 主题色 - 天蓝色主题 */
-  --primary-color: #56CCF2;
-  --primary-dark: #2F80ED;
-  --primary-light: #87CEEB;
+  /* 主题色 - 青色主题 */
+  --primary-color: #00A0A0; /* A darker, more vibrant cyan */
+  --primary-dark: #008080; /* Teal */
+  --primary-light: #4DD0E1; /* A lighter, but still vibrant cyan */
   --secondary-color: #ff6b6b;
   --accent-color: #4caf50;
   
@@ -103,7 +103,7 @@ body {
 
 .btn-primary {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--bg-primary);
 }
 
 .btn-primary:hover {

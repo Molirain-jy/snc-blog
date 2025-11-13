@@ -21,13 +21,13 @@ const quickLinks = [
     <div class="footer-wave">
       <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
-          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          <path id="gentle-wave" d="M-160 44c30 0 58-30 88-30s 58 30 88 30 58-30 88-30 58 30 88 30 v44h-352z" />
         </defs>
         <g class="parallax">
-          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(245,245,245,0.7)" />
-          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(245,245,245,0.5)" />
-          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(245,245,245,0.3)" />
-          <use xlink:href="#gentle-wave" x="48" y="7" fill="#f5f5f5" />
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
         </g>
       </svg>
     </div>
@@ -98,8 +98,8 @@ const quickLinks = [
 <style scoped>
 .footer {
   position: relative;
-  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
-  color: white;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: var(--bg-primary);
   margin-top: 80px;
 }
 
@@ -110,39 +110,40 @@ const quickLinks = [
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
 }
 
 .footer-wave .waves {
   position: relative;
   width: 100%;
-  height: 15vh;
-  min-height: 100px;
-  max-height: 150px;
+  height: 80px;
+  min-height: 60px;
+  max-height: 100px;
+  transform: rotate(180deg) scaleY(0.7);
 }
 
 .footer-wave .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+  fill: rgba(255, 255, 255, 0.7);
 }
 
 .footer-wave .parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+  animation-delay: -1s;
+  animation-duration: 16s;
 }
 
 .footer-wave .parallax > use:nth-child(2) {
   animation-delay: -3s;
-  animation-duration: 10s;
+  animation-duration: 24s;
 }
 
 .footer-wave .parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+  animation-delay: -5s;
+  animation-duration: 20s;
 }
 
 .footer-wave .parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+  animation-delay: -7s;
+  animation-duration: 28s;
 }
 
 @keyframes move-forever {
@@ -169,11 +170,11 @@ const quickLinks = [
 .footer-section h4 {
   font-size: 20px;
   margin-bottom: 20px;
-  color: white;
+  color: var(--bg-primary);
 }
 
 .footer-description {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.8;
   margin-bottom: 24px;
 }
@@ -212,13 +213,13 @@ const quickLinks = [
 }
 
 .footer-links a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   transition: all 0.3s ease;
   display: inline-block;
 }
 
 .footer-links a:hover {
-  color: white;
+  color: var(--bg-primary);
   transform: translateX(4px);
 }
 
@@ -231,7 +232,7 @@ const quickLinks = [
   align-items: center;
   gap: 12px;
   margin-bottom: 16px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .contact-info .icon {
@@ -246,7 +247,7 @@ const quickLinks = [
 }
 
 .footer-bottom p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 8px;
 }
 

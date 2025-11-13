@@ -222,8 +222,8 @@ const stats = [
 /* Hero Section */
 .hero-section {
   padding: 100px 0 80px;
-  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
-  color: white;
+  background: linear-gradient(135deg, #99FFFF 0%, #66CCCC 100%);
+  color: #004d4d;
   text-align: center;
 }
 
