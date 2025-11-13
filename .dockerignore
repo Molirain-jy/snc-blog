@@ -1,0 +1,13 @@
+# Docker
+node_modules
+dist
+.DS_Store
+*.log
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode
+.idea
